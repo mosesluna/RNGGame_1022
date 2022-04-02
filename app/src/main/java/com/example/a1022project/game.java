@@ -18,13 +18,13 @@ public class game extends AppCompatActivity {
     private Button guessPrompt;
     private Button mainMenu;
     private Button startRetry;
-    private static long timeLeft = 4000;
+    private long timeLeft = 4000;
     private int guessNum = (int) Math.floor(Math.random() * 10);
-    private static int level = 1;
+    private int level = 1;
     private String tellPlayer;
     private String playerGuess;
     private int guessFin;
-    private static int levelFin = 0;
+    // private static int levelFin = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -153,10 +153,10 @@ public class game extends AppCompatActivity {
             mainMenu.setVisibility(View.VISIBLE);
             startRetry.setVisibility(View.VISIBLE);
 
-            if(levelFin < level) {
-                level = levelFin;
-                setHighScore();
-            }
+            // if(levelFin < level) {
+            //     level = levelFin;
+            //     setHighScore();
+            //}
 
             mainMenu.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -201,21 +201,21 @@ public class game extends AppCompatActivity {
         return true;
     }
 
-    public static void setTimer(long time) {
-        timeLeft = time;
-    }
+    // public static void setTimer(long time) {
+    //     timeLeft = time;
+    // }
 
-    public static long getTimer() {
-        timeLeft = timeLeft / 1000;
-        return timeLeft;
-    }
+    // public static long getTimer() {
+    //     timeLeft = timeLeft / 1000;
+    //     return timeLeft;
+    // }
 
-    public static int getHighScore() {
-        return levelFin;
-    }
+    // public static int getHighScore() {
+    //     return levelFin;
+    // }
 
-    public void setHighScore() {
-        levelFin = level;
-    }
+    // public void setHighScore() {
+    //     levelFin = level;
+    // }
 
 }

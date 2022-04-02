@@ -19,7 +19,7 @@ public class scores extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.scores);
 
-        back = findViewById(R.id.main_menu);
+    /*    back = findViewById(R.id.main_menu);
         highScore = findViewById(R.id.high_score);
         score = game.getHighScore();
         finalSay = "High Score:\n" + score;
@@ -37,5 +37,6 @@ public class scores extends AppCompatActivity {
     public void goBack() {
         Intent back = new Intent(this, MainActivity.class);
         startActivity(back);
+    } */
     }
 }

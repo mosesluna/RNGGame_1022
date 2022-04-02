@@ -20,37 +20,38 @@ public class settings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings);
 
-        switchTime = findViewById(R.id.switchTime);
+        /* switchTime = findViewById(R.id.switchTime);
         setTime = findViewById(R.id.setTime);
-        back = findViewById(R.id.main_menu);
+        back = findViewById(R.id.main_menu); */
 
-    //    switchTime.setText(String.valueOf(game.getTimer() / 1000));
+        //    switchTime.setText(String.valueOf(game.getTimer() / 1000));
 
-    //    setTheTime = switchTime.getText().toString();
-    //    finTime = Long.parseLong(setTheTime);
+        //    setTheTime = switchTime.getText().toString();
+        //    finTime = Long.parseLong(setTheTime);
 
-    //    setTime.setOnClickListener(new View.OnClickListener() {
-    //        @Override
-    //        public void onClick(View view) {
-    //            setTimer(finTime);
-    //        }
-    //    });
+        //    setTime.setOnClickListener(new View.OnClickListener() {
+        //        @Override
+        //        public void onClick(View view) {
+        //            setTimer(finTime);
+        //        }
+        //    });
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goBack();
-            }
-        });
-    }
+        //    back.setOnClickListener(new View.OnClickListener() {
+        //        @Override
+        //        public void onClick(View view) {
+        //            goBack();
+        //        }
+        //    });
+        // }
 
-    //public void setTimer(long time) {
-    //    time *= 1000;
-    //    game.setTimer(time);
-    //}
+        //public void setTimer(long time) {
+        //    time *= 1000;
+        //    game.setTimer(time);
+        //}
 
-    public void goBack() {
+    /* public void goBack() {
         Intent back = new Intent(this, MainActivity.class);
         startActivity(back);
+    } */
     }
 }

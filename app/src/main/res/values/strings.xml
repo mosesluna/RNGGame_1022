@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">1022Project</string>
+    <string name="button">Button</string>
+    <string name="guess">guess</string>
+    <string name="menu">Main Menu</string>
+    <string name="retry">Retry</string>
+    <string name="start">START</string>
+    <string name="number_memorize">Number Memorize</string>
+    <string name="scores">SCORES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="timer_length">Timer Length:</string>
+    <string name="set">Set</string>
+    <string name="back">Back</string>
+    <string name="backAgain">back</string>
 </resources>
